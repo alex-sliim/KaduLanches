@@ -169,6 +169,13 @@ body {
   color: var(--color-crust-900);
 }
 
+/* A logo é um PNG com transparência real — nunca forçar fundo nela. */
+img[src*="logo"] {
+  background: transparent !important;
+  background-image: none !important;
+  mix-blend-mode: normal;
+}
+
 /* Scroll reveal */
 .reveal {
   opacity: 0;

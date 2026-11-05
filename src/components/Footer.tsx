@@ -10,11 +10,16 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.3fr_1fr_1fr]">
           <div>
             <div className="flex items-center gap-3">
-              <img
-                src={BRAND.logoTrans}
-                alt="Logo Kadu Lanches"
-                className="h-16 w-16 object-contain"
-              />
+              <span className="relative grid h-16 w-16 shrink-0 place-items-center">
+                <span className="absolute inset-0 rounded-full bg-cream-100/20 blur-md" />
+                <img
+                  src={BRAND.logoTrans}
+                  alt="Logo Kadu Lanches"
+                  width={64}
+                  height={64}
+                  className="relative h-16 w-16 object-contain"
+                />
+              </span>
               <div>
                 <p className="font-display text-xl font-extrabold text-cream-50">Kadu Lanches</p>
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cheddar-300">

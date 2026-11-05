@@ -11,7 +11,7 @@ export default function Differentials() {
           <div className="reveal relative order-2 lg:order-1">
             <div className="relative mx-auto max-w-md">
               <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-cheddar-400/40 via-cream-200 to-tomato-500/20 blur-2xl" />
-              <div className="relative overflow-hidden rounded-[2rem] border border-crust-900/10 bg-white p-6 shadow-[0_30px_70px_-30px_rgba(47,27,12,0.5)]">
+              <div className="relative overflow-hidden rounded-[2rem] border border-crust-900/10 bg-gradient-to-b from-cream-50 to-cream-200/60 p-6 shadow-[0_30px_70px_-30px_rgba(47,27,12,0.5)]">
                 <img src={BRAND.logoTrans} alt="Lanche do Kadu" className="mx-auto w-full max-w-xs" />
                 <div className="mt-4 rounded-2xl bg-crust-900 px-5 py-4 text-center">
                   <p className="font-display text-lg font-extrabold text-cream-50">

@@ -9,11 +9,13 @@ export default function FinalCTA() {
       <div className="pointer-events-none absolute left-1/2 top-10 h-72 w-[40rem] -translate-x-1/2 rounded-full bg-cheddar-500/15 blur-[130px]" />
 
       <div className="relative mx-auto w-full max-w-5xl px-4 text-center sm:px-6">
-        <div className="reveal mx-auto w-32 animate-float sm:w-44">
+        <div className="reveal relative mx-auto w-32 animate-float sm:w-44">
+          {/* halo claro: garante contraste do texto marrom da logo sobre fundo escuro */}
+          <span className="absolute inset-[12%] rounded-full bg-cream-100/25 blur-2xl" />
           <img
             src={BRAND.logoTrans}
             alt="Logo Kadu Lanches"
-            className="w-full drop-shadow-[0_18px_35px_rgba(0,0,0,0.55)]"
+            className="relative w-full drop-shadow-[0_18px_35px_rgba(0,0,0,0.55)]"
           />
         </div>
 

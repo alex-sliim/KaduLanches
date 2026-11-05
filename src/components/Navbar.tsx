@@ -33,10 +33,12 @@ export default function Navbar() {
             )}
           >
             <a href="#top" className="group flex shrink-0 items-center gap-3">
-              <span className="relative block overflow-hidden rounded-xl bg-white ring-1 ring-crust-900/10 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2">
+              <span className="relative block transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2">
                 <img
                   src={BRAND.logoTrans}
                   alt="Logo Kadu Lanches"
+                  width={56}
+                  height={56}
                   className="h-12 w-12 object-contain sm:h-14 sm:w-14"
                   loading="eager"
                 />

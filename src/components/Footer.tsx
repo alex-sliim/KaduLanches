@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="relative grid h-16 w-16 shrink-0 place-items-center">
                 <span className="absolute inset-0 rounded-full bg-cream-100/20 blur-md" />
                 <img
-                  src={BRAND.logo}
+                  src={BRAND.logoTrans}
                   alt="Logo Kadu Lanches"
                   width={64}
                   height={64}

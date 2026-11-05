@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import { LOGO_DATA_URI } from "@/data/logo";
 import heroImg from "@/assets/hero.jpg";
 import enroladinho from "@/assets/enroladinho.jpg";
 import esfirra from "@/assets/esfirra.jpg";
@@ -13,7 +13,8 @@ export const BRAND = {
   tagline: "Lanche do Kadu",
   whatsappDisplay: "(62) 99988-2515",
   whatsappRaw: "5562999882515",
-  logo,
+  logo: LOGO_DATA_URI,
+  logoTrans: LOGO_DATA_URI,
   hero: heroImg,
 };
 

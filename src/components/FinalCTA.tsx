@@ -13,7 +13,7 @@ export default function FinalCTA() {
           {/* halo claro: garante contraste do texto marrom da logo sobre fundo escuro */}
           <span className="absolute inset-[12%] rounded-full bg-cream-100/25 blur-2xl" />
           <img
-            src={BRAND.logoTrans}
+            src={BRAND.logo}
             alt="Logo Kadu Lanches"
             className="relative w-full drop-shadow-[0_18px_35px_rgba(0,0,0,0.55)]"
           />

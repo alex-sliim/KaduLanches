@@ -135,7 +135,7 @@ export default function Hero() {
 
             {/* floating logo */}
             <div className="animate-float-fast absolute -left-2 top-2 w-28 drop-shadow-2xl sm:w-40">
-              <img src={BRAND.logoTrans} alt="Logo Lanche do Kadu" className="w-full" />
+              <img src={BRAND.logo} alt="Logo Lanche do Kadu" className="w-full" />
             </div>
 
             {/* floating badge 1 */}
